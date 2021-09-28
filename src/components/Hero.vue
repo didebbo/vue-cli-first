@@ -1,12 +1,12 @@
 <template>
-  <img :src="require(`@/assets/img/${pictureSrc}`)" :alt="alt" />
+  <img :src="require(`@/assets/img/${src}`)" :alt="alt" />
 </template>
 
 <script>
 export default {
   name: "Hero",
   props: {
-    pictureSrc: String,
+    src: String,
     alt: String,
   },
 };
