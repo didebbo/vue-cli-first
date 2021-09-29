@@ -7,8 +7,8 @@
 </template>
 
 <script>
-import Title from "./components/Title.vue";
 import Hero from "./components/Hero.vue";
+import Title from "./components/Title.vue";
 
 export default {
   name: "App",
@@ -27,14 +27,16 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
-}
 
-img {
   animation-name: fluo;
   animation-direction: alternate;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   animation-duration: 2s;
+}
+
+h1 {
+  color: #41bd84;
 }
 
 @keyframes fluo {
