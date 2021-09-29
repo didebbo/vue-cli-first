@@ -34,10 +34,6 @@ export default {
   animation-duration: 2s;
 }
 
-h1 {
-  color: #41bd84;
-}
-
 @keyframes fluo {
   0% {
     filter: hue-rotate(0deg);
